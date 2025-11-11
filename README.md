@@ -46,21 +46,31 @@ Evaluate the model and see all the final graphs and reports.
 This project was built using a standard, professional data science stack:
 
 #Python: The core programming language for the entire project.
+
 #TensorFlow (with Keras): The deep learning framework used to design, compile, and train the custom Convolutional Neural Network.
+
 #Jupyter Notebook: The interactive environment used for all development, from data exploration to training and final evaluation.
+
 #Scikit-learn (sklearn): Used for splitting the data (the 70/15/15 split) and for generating the final evaluation metrics (the Classification Report and Confusion Matrix).
+
 #NumPy: The fundamental library for all numerical operations and for handling the image data as arrays.
+
 #Matplotlib & Seaborn: Used to create all the data visualizations, including the training/loss curves and the confusion matrix heatmap.
+
 #Git & GitHub: Used for version control and for hosting the final project.
 
 **📁 Project File Structure**
 Here's what each file in this repository does:
 
 training_notebook.ipynb: (Source Code) This is the main file containing all the Python code for data loading, preprocessing, model building, training, and evaluation.
+
 basic_cnn_model.h5: (Trained Model File) This is the final, best-performing model that was saved after training.
+
 README.md: (Project Report) This file, which you are currently reading.
 requirements.txt: A list of all Python libraries needed to run the project.
+
 training_curves.png: The saved graph of the model's accuracy and loss.
+
 confusion_matrix.png: The saved heatmap of the model's predictions.
 sample_predictions.png: The saved image of sample predictions.
 

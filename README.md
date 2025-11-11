@@ -17,6 +17,7 @@ Git (for cloning)
 Open your terminal or command prompt and run the following command to clone this repository to your local machine:
 
 git clone https://github.com/[Your-Username]/[Your-Repo-Name].git
+
 cd [Your-Repo-Name]
 
 (Replace [Your-Username] and [Your-Repo-Name] with your actual GitHub details)
@@ -109,22 +110,8 @@ These graphs show the model's accuracy and loss as it trained. You can see the "
 **Classification Report**
 This report shows the performance for each class. The model is very good at identifying automobiles (90% precision) and ships (87% precision) but struggles with cats (52% precision), which it often confuses with dogs.
 
-precision    recall  f1-score   support
+<img width="890" height="612" alt="image" src="https://github.com/user-attachments/assets/91ac3ff6-0889-42f6-83b6-fb20752e960f" />
 
-    airplane       0.82      0.75      0.78       900
-  automobile       0.90      0.87      0.88       900
-        bird       0.68      0.63      0.65       900
-         cat       0.52      0.57      0.54       900
-        deer       0.77      0.69      0.73       900
-         dog       0.56      0.72      0.63       900
-        frog       0.79      0.77      0.78       900
-       horse       0.82      0.79      0.80       900
-        ship       0.87      0.88      0.88       900
-       truck       0.86      0.84      0.85       900
-
-    accuracy                           0.75      9000
-   macro avg       0.76      0.75      0.75      9000
-weighted avg       0.76      0.75      0.75      9000
 
 **Confusion Matrix**
 

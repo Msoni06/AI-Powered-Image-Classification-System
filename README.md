@@ -62,19 +62,21 @@ This project was built using a standard, professional data science stack:
 **📁 Project File Structure**
 Here's what each file in this repository does:
 
-training_notebook.ipynb: (Source Code) This is the main file containing all the Python code for data loading, preprocessing, model building, training, and evaluation.
+#training_notebook.ipynb: (Source Code) This is the main file containing all the Python code for data loading, preprocessing, model building, training, and evaluation.
 
-basic_cnn_model.h5: (Trained Model File) This is the final, best-performing model that was saved after training.
+#basic_cnn_model.h5: (Trained Model File) This is the final, best-performing model that was saved after training.
 
-README.md: (Project Report) This file, which you are currently reading.
+#README.md: (Project Report) This file, which you are currently reading.
 requirements.txt: A list of all Python libraries needed to run the project.
 
-training_curves.png: The saved graph of the model's accuracy and loss.
+#training_curves.png: The saved graph of the model's accuracy and loss.
 
-confusion_matrix.png: The saved heatmap of the model's predictions.
-sample_predictions.png: The saved image of sample predictions.
+#confusion_matrix.png: The saved heatmap of the model's predictions.
+
+#sample_predictions.png: The saved image of sample predictions.
 
 **🧠 Model Architecture & Performance**
+
 **1. Data Pipeline**
 Dataset: We used CIFAR-10, a standard benchmark dataset of 60,000 32x32 color images.
 
@@ -111,6 +113,7 @@ Final Test Accuracy: 75.02%
 Final Test Loss: 0.7605
 
 **📊 All Project Visuals**
+
 Training & Validation Curves
 These graphs show the model's accuracy and loss as it trained. You can see the "Train Accuracy" (blue) and "Validation Accuracy" (orange) both increase and stay close, showing the model learned well without just memorizing.
 
